@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/* font-family: 'PT Sans', sans-serif; */
+
+:root{
+    --clr-black: #3d3d3d;
+    --clr-black-50: #3d3d3dc5;
+    --clr-white: #f1f2f6;
+    --clr-yellow: #ffc107;
+}
+
+/* utilities */
+.txt-black{
+    color: var(--clr-black);
+}
+.txt-white{
+    color: var(--clr-white);
+}
+.mt-custom{
+    margin-top: 10rem;
+}
+.custom-dimed-background{
+    background-color: var(--clr-black-50);
+    border-radius: 8px;
+}
+
+
+
+
+/* index styling */
+
+.index-body{
+    background: url("../img/bg1.jpg") no-repeat center center/cover fixed;
+}
+.semester-1-body{
+    background: url("../img/bg2.jpg") no-repeat center center/cover fixed;
+}
+.semester-2-body{
+    background: url("../img/bg3.jpg") no-repeat center center/cover fixed;
+}
+.semester-3-body{
+    background: url("../img/bg4.jpg") no-repeat center center/cover fixed;
+}
+.semester-4-body{
+    background: url("../img/bg5.jpg") no-repeat center center/cover fixed;
+}
+.semester-5-body{
+    background: url("../img/bg6.jpg") no-repeat center center/cover fixed;
+}
+
+/* header */
+
+
+.header-banner{
+    background-color: var(--clr-black-50);
+    min-height: 150px;
+    height: 20vh;
+    text-align: center;
+}
+.header-banner h1{
+    letter-spacing: 12px;
+}
+
+.nav-search-bar{
+    color: #6c757d;
+    background-color: #212529;
+    opacity: 1;
+}
+
+.nav-search-bar:focus{
+    color: #6c757d;
+    background-color: #212529;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+    outline: none;
+    border-color: #fff;
+}
+
+
+
+/* semester 1 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries*/
+@media only screen and (max-width: 806px){
+    .footer-btn{
+        margin-top: 2rem;
+    }
+}
